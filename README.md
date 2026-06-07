@@ -2,24 +2,23 @@
 
 This program allows a user to create a personalized profile with their choice of exercises and then generate a randomized workout program according to the user's preferences.
 
----
-
 ## Videos
-- [Code Demo](add link here)
-- [Code Walkthrough](add link here)
+- [Demo](https://youtu.be/uvVH2tUc0OA) (1:52)
+- [Code Walkthrough](https://youtu.be/SZSuukd_aiQ) (4:38)
+
 ## How to Run
+No third party modules required. Plug and play. Requires Python 3.7 or newer for `dataclass` module support, check version with `python3 -V`
 
-From the project directory in your terminal:
-`main.py` or `python3 main.py`
+### Terminal (Recommended)
+- From the project directory: `python3 main.py`
 
-Requires Python 3.7 or newer for `dataclass` module support, check version with `python3 -V`
+### Pycharm
+- Add `TERM=xcode-color` to your Environment Variables
+- From the Terminal panel: `python3 main.py`
 
-No third party modules required. Plug and play.
+###### Note for testing:
 
 Prebuilt TestUser profile in profiles.json has 2 exercises in each category for Relaxed and Standard intensity to demonstrate randomization of generated workouts and no workouts of Hardcore intensity to demonstrate error handling when a user attempts to generate a workout without exercises in their profile corresponding to the chosen intensity.
-
-Note for Pycharm users:
-`clearScreen()` requires enabling Terminal plugin in Pycharm configuration for full functionality (it's easier to just run it from the command line)
 
 ## Features Implemented:
 
@@ -28,7 +27,7 @@ Note for Pycharm users:
 - Recursive decision trees
 - Robust input validation
 
-## Dataclass References:
+#### Dataclass References:
 
 - https://stackoverflow.com/a/68929467
 - https://docs.python.org/3/library/dataclasses.html
