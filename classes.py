@@ -126,6 +126,9 @@ class Profile:
     print(f"Number of exercises: {len(self.exercises)}\n")
 
 
+
+  # TODO: Combine deleteProfile and saveProfile into saveOrDelete(self, deleteOrSave)
+  
   def deleteProfile(self):
     """Delete the current profile from the profiles.json file"""
     # Adapted from https://stackoverflow.com/a/68929467
