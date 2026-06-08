@@ -9,9 +9,10 @@ This program allows a user to create a personalized profile with their choice of
 - [Code Walkthrough](https://youtu.be/SZSuukd_aiQ) (4:38)
 
 ## How to Run
-No third party modules required, plug and play. 
+No extra modules required, plug and play. 
 
-Requires Python 3.7 or newer for `dataclasses` module support, check version with `python3 -V`
+>[!NOTE]
+>Requires Python 3.7 or newer for `dataclasses` module support, check version with `python3 -V`
 
 ### Terminal (Recommended)
 - From the project directory: `python3 main.py`
@@ -19,10 +20,6 @@ Requires Python 3.7 or newer for `dataclasses` module support, check version wit
 ### Pycharm
 - Add `TERM=xcode-color` to your Environment Variables
 - From the Terminal panel: `python3 main.py`
-
-###### Note for testing:
-
-Prebuilt TestUser profile in profiles.json has 2 exercises in each category for Relaxed and Standard intensity to demonstrate randomization of generated workouts and no workouts of Hardcore intensity to demonstrate error handling when a user attempts to generate a workout without exercises in their profile corresponding to the chosen intensity.
 
 ## Features Implemented:
 
