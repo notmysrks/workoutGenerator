@@ -11,7 +11,7 @@ This program allows a user to create a personalized profile with their choice of
 ## How to Run
 No third party modules required, plug and play. 
 
-Requires Python 3.7 or newer for `dataclass` module support, check version with `python3 -V`
+Requires Python 3.7 or newer for `dataclasses` module support, check version with `python3 -V`
 
 ### Terminal (Recommended)
 - From the project directory: `python3 main.py`
@@ -26,7 +26,7 @@ Prebuilt TestUser profile in profiles.json has 2 exercises in each category for 
 
 ## Features Implemented:
 
-- Profile persistence (saving/loading) with `dataclass` classes and `json` module
+- Profile persistence (saving/loading) with `@dataclass` classes and `json` module
 - Composition OOP relationships (Profiles have a list of Exercises)
 - Recursive decision trees
 - Robust input validation
