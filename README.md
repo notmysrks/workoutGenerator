@@ -9,7 +9,9 @@ This program allows a user to create a personalized profile with their choice of
 - [Code Walkthrough](https://youtu.be/SZSuukd_aiQ) (4:38)
 
 ## How to Run
-No third party modules required. Plug and play. Requires Python 3.7 or newer for `dataclass` module support, check version with `python3 -V`
+No third party modules required, plug and play. 
+
+Requires Python 3.7 or newer for `dataclass` module support, check version with `python3 -V`
 
 ### Terminal (Recommended)
 - From the project directory: `python3 main.py`
