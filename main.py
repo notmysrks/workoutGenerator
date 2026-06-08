@@ -1,3 +1,12 @@
+"""
+WORKOUT GENERATOR
+This program allows a user to create a personalized profile with their choice of exercises and then generate a randomized workout program according to the user's preferences.
+
+Skylar Randall Kass
+June 07, 2026
+"""
+
+
 from copy import deepcopy
 from random import shuffle
 from os import system, name
