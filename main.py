@@ -202,7 +202,7 @@ def manage(profile):
   print("(2) Edit an exercise")
   print("(3) Delete an exercise")
   print("(4) Delete profile")
-  print("\n0) Main Menu")
+  print("\n(0) Main Menu")
 
   choice = None
   try:
