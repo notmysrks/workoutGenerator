@@ -5,7 +5,7 @@ This program allows a user to create a personalized profile with their choice of
 ## UX Flowchart
 ![UX Flowchart](https://github.com/notmysrks/workoutGenerator/blob/main/updatedUX.png?raw=true)
 ## Videos
-- [Demo](https://youtu.be/uvVH2tUc0OA) (1:52)
+- [Demo](https://www.youtube.com/watch?v=7qXSc_RuWJg) (2:01)
 - [Code Walkthrough](https://youtu.be/SZSuukd_aiQ) (4:38)
 
 ## How to Run
