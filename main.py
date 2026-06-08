@@ -43,9 +43,9 @@ def promptToLoadOrCreateProfile(allProfiles = None):
       invalidInput()
       return promptToLoadOrCreateProfile(allProfiles)
     thisProfile = allProfiles[profileChoice-1]
-    input(thisProfile)  # Show Profile with unloaded exercise dictionaries
+    #input(thisProfile)  # Show Profile with unloaded exercise dictionaries
     Profile.loadProfile(thisProfile)
-    input(thisProfile)  # Show Profile with loaded Exercise objects
+    #input(thisProfile)  # Show Profile with loaded Exercise objects
 
   else: # saveOrLoadChoice == 2
     clearScreen()
