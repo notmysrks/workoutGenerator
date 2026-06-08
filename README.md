@@ -2,6 +2,8 @@
 
 This program allows a user to create a personalized profile with their choice of exercises and then generate a randomized workout program according to the user's preferences.
 
+## UX Flowchart
+![UX Flowchart](https://github.com/notmysrks/workoutGenerator/blob/main/updatedUX.png?raw=true)
 ## Videos
 - [Demo](https://youtu.be/uvVH2tUc0OA) (1:52)
 - [Code Walkthrough](https://youtu.be/SZSuukd_aiQ) (4:38)
